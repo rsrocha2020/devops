@@ -57,6 +57,10 @@ Kubernetes (01 Master node e 03 Worker node):
 
 ![image](https://github.com/user-attachments/assets/2cc7bfa6-f13e-47b5-813c-bef8a88b4e5a)
 
+NGINX Ingress Controller:
+
+![image](https://github.com/user-attachments/assets/e90a62b2-8737-45d5-a414-b6a00ea4e3f6)
+
 
 Jenkins Server:
 
