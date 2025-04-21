@@ -1,4 +1,4 @@
-A arquitetura envolvendo Kubernetes, Jenkins, e Harbor é comum em pipelines de CI/CD modernas, especialmente em ambientes on-premises ou bare-metal. Aqui vai uma visão geral da arquitetura e como os componentes interagem:
+A arquitetura envolvendo Kubernetes, Jenkins e Harbor. Pipelines CI/CD moderno, ambiente de sustentação em on-premises, abaixo uma visão geral da arquitetura e como os componentes interagem:
 
 
 📐 Arquitetura: Kubernetes + Jenkins + Harbor
@@ -53,17 +53,10 @@ Kubernetes baixa a imagem do Harbor e aplica o deployment.
 ![image](https://github.com/user-attachments/assets/ff7216b6-3c49-4d4f-a321-c52de5cb8f59)
 
 
-                                
-⚙️ Boas Práticas
+                              
 
-Usar namespace dedicado para Jenkins e apps no Kubernetes.
+Configurado Ingress Controller + TLS para acesso seguro as Apps, Jenkins e Harbor.
 
-Configurar RBAC e ServiceAccount para Jenkins no K8s.
+Utilizando PVCs para persistência no Jenkins e Harbor.
 
-Armazenar credenciais (Harbor, Git, etc.) no Jenkins com credentials store.
-
-Configurar Ingress + TLS para acesso seguro ao Jenkins e Harbor.
-
-Usar PVCs para persistência no Jenkins e Harbor.
-
-Fazer scan de imagens no Harbor para segurança.
+Scan de imagens no Harbor para segurança.
