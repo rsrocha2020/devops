@@ -226,14 +226,6 @@ _version: 2.9.0
 # for core and jobservice, and set `http_proxy` and `https_proxy`.
 # Add domain to the `no_proxy` field, when you want disable proxy
 # for some special registry.
-proxy:
-  http_proxy: "http://t3711:uTDMAmkaNe7V5xRn@proxy.bndes.net:8080"
-  https_proxy: "http://t3711:uTDMAmkaNe7V5xRn@proxy.bndes.net:8080"
-  no_proxy: "localhost,127.0.0.1,10.0.0.0/8,172.35.10.0/16,172.36.10.0/16,.bndes.net,.svc,.cluster.local" 
-  components:
-    - core
-    - jobservice
-    - trivy
 
 # metric:
 #   enabled: false
