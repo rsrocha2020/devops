@@ -2,7 +2,7 @@
 
 # The IP address or hostname to access admin UI and registry service.
 # DO NOT use localhost or 127.0.0.1, because Harbor needs to be accessed by external clients.
-hostname: itsm-harbor.bndes.net
+hostname: hostname.local
 
 # http related config
 http:
@@ -14,8 +14,8 @@ https:
   # https port for harbor, default is 443
   port: 443
   # The path of cert and key files for nginx
-  certificate: /etc/ssl/harbor/itsm-harbor.bndes.net.crt
-  private_key: /etc/ssl/harbor/itsm-harbor.bndes.net.key
+  certificate: /etc/ssl/harbor/certificate.crt
+  private_key: /etc/ssl/harbor/certificate.key
     #  ca: /etc/ssl/harbor/itsm-harbor.bndes.net.pem
 
 # # Uncomment following will enable tls communication between all harbor components
