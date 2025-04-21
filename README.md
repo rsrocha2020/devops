@@ -53,7 +53,20 @@ Kubernetes baixa a imagem do Harbor e aplica o deployment.
 ![image](https://github.com/user-attachments/assets/ff7216b6-3c49-4d4f-a321-c52de5cb8f59)
 
 
-                              
+Kubernetes (01 Master node e 03 Worker node):
+
+![image](https://github.com/user-attachments/assets/2cc7bfa6-f13e-47b5-813c-bef8a88b4e5a)
+
+
+Jenkins Server:
+
+![image](https://github.com/user-attachments/assets/edb6f2bf-9294-4e31-a28d-10798c179b88)
+
+Harbor:
+
+![image](https://github.com/user-attachments/assets/efffd9bb-d5d2-4a5c-bab5-8a07d8a78b03)
+
+
 
 Configurado Ingress Controller + TLS para acesso seguro as Apps, Jenkins e Harbor.
 
