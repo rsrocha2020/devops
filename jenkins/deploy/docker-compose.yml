@@ -1,0 +1,29 @@
+networks:
+  network:
+    name: jenkins_network
+    driver: bridge
+    ipam:
+      config:
+        - subnet: "172.31.10.0/24"
+services:
+  jenkins:
+    image: jenkins/jenkins:lts
+    container_name: jenkins
+    restart: unless-stopped
+    user: "1000:1000"
+    ports:
+      - "443:8443"
+      - "50000:50000"
+    networks:
+      network:
+        ipv4_address: "172.31.10.2"
+    volumes:
+      - /srv/jenkins:/var/jenkins_home
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /etc/ssl/jenkins:/var/jenkins_home/certs
+    environment:
+      - JENKINS_OPTS=--httpsPort=8443 --httpsKeyStore=/var/jenkins_home/certs/jenkins_keystore.jks --httpsKeyStorePassword=uTDMAmkaNe7V5xRn
+      - HTTP_PROXY=http://t3711:uTDMAmkaNe7V5xRn@proxy.bndes.net:8080
+      - HTTPS_PROXY=http://t3711:uTDMAmkaNe7V5xRn@proxy.bndes.net:8080
+      - NO_PROXY=localhost,127.0.0.1,10.0.0.0/8,172.35.10.0/16,172.36.10.0/16,.bndes.net,.svc,.cluster.local
+

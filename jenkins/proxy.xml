@@ -1,0 +1,9 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<proxy>
+  <name>proxy.bndes.net</name>
+  <port>8080</port>
+  <userName>t3711</userName>
+  <noProxyHost>localhost,127.0.0.1,10.2.3.175/19,172.30.0.0/16,172.31.0.0/16,172.32.0.0/16,172.33.0.0/16,172.34.0.0/16,172.35.0.0/16</noProxyHost>
+  <secretPassword>{AQAAABAAAAAg4E9OZRXRxYAtwKWMBK+iN+JI9FdmUuY2mnVJt2PMd9c3r3XVG94wPVWv6h/gCJm9}</secretPassword>
+  <testUrl></testUrl>
+</proxy>

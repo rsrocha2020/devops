@@ -1,0 +1,22 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson.model.UserIdMapper>
+  <version>1</version>
+  <idToDirectoryNameMap class="concurrent-hash-map">
+    <entry>
+      <string>rsrocha</string>
+      <string>rsrocha_9623277840840037386</string>
+    </entry>
+    <entry>
+      <string>cfukuda</string>
+      <string>cfukuda_12145988776362803249</string>
+    </entry>
+    <entry>
+      <string>sbogea</string>
+      <string>sbogea_13766967237457205322</string>
+    </entry>
+    <entry>
+      <string>wchagas</string>
+      <string>wchagas_5506725435048688312</string>
+    </entry>
+  </idToDirectoryNameMap>
+</hudson.model.UserIdMapper>

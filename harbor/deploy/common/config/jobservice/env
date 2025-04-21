@@ -1,0 +1,17 @@
+CORE_SECRET=yiEbe4wuLvowqEqo
+REGISTRY_URL=http://registry:5000
+JOBSERVICE_SECRET=qeN97OBatFVgpt1E
+CORE_URL=http://core:8080
+REGISTRY_CONTROLLER_URL=http://registryctl:8080
+JOBSERVICE_WEBHOOK_JOB_MAX_RETRY=3
+JOBSERVICE_WEBHOOK_JOB_HTTP_CLIENT_TIMEOUT=3
+
+
+HTTP_PROXY=http://t3711:uTDMAmkaNe7V5xRn@proxy.bndes.net:8080
+HTTPS_PROXY=http://t3711:uTDMAmkaNe7V5xRn@proxy.bndes.net:8080
+NO_PROXY=portal,.svc,172.36.10.0/16,registry,core,trivy-adapter,log,.bndes.net,10.0.0.0/8,exporter,.cluster.local,postgresql,.internal,redis,localhost,jobservice,registryctl,127.0.0.1,nginx,172.35.10.0/16,.local,db
+REGISTRY_CREDENTIAL_USERNAME=harbor_registry_user
+REGISTRY_CREDENTIAL_PASSWORD=aKinpbFca0dmfVmULV3sKcwgPEKODRCs
+
+
+

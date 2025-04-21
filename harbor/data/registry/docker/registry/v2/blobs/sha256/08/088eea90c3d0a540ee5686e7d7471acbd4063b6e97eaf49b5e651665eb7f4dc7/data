@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 2,
+  "mediaType": "application/vnd.oci.image.manifest.v1+json",
+  "config": {
+    "mediaType": "application/vnd.oci.image.config.v1+json",
+    "digest": "sha256:97662d24417b316f60607afbca9f226a2ba58f09d642f27b8e197a89859ddc8e",
+    "size": 8582
+  },
+  "layers": [
+    {
+      "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+      "digest": "sha256:c29f5b76f736a8b555fd191c48d6581bb918bcd605a7cbcc76205dd6acff3260",
+      "size": 28212303
+    },
+    {
+      "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+      "digest": "sha256:e19db8451adb4b9c6dc54aaec5c9fd8917d5267d249a977b95dab00ce960e4bf",
+      "size": 43950094
+    },
+    {
+      "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+      "digest": "sha256:24ff42a0d907c9f6e59a6ce8ad8691f8b72ffad5e1e55584612b86cb632f5cfa",
+      "size": 627
+    },
+    {
+      "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+      "digest": "sha256:c558df2179491b5490a7b895e422fffcddcfaec6c045d49907048d32a2ab5784",
+      "size": 955
+    },
+    {
+      "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+      "digest": "sha256:976e8f6b25dd4b8451fa52d71524f61103d32dca1af6b1ddb70b0ea848a3e373",
+      "size": 403
+    },
+    {
+      "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+      "digest": "sha256:6c78b0ba1a32d228d04680a4dc7bd67a21f2e30f6fc032b5648d0cae756efe14",
+      "size": 1206
+    },
+    {
+      "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+      "digest": "sha256:84cade77a8319515342dbc0f9d9ce4bbddd2d95f93646091b61a4ca318164a44",
+      "size": 1396
+    }
+  ],
+  "annotations": {
+    "com.docker.official-images.bashbrew.arch": "amd64",
+    "org.opencontainers.image.base.digest": "sha256:44bccdd61bf09a081b1db8c61cf49bfabf30ac7afcc970010137c0ab587b209c",
+    "org.opencontainers.image.base.name": "debian:bookworm-slim",
+    "org.opencontainers.image.created": "2025-02-05T21:27:16Z",
+    "org.opencontainers.image.revision": "cffeb933620093bc0c08c0b28c3d5cbaec79d729",
+    "org.opencontainers.image.source": "https://github.com/nginxinc/docker-nginx.git#cffeb933620093bc0c08c0b28c3d5cbaec79d729:mainline/debian",
+    "org.opencontainers.image.url": "https://hub.docker.com/_/nginx",
+    "org.opencontainers.image.version": "1.27.4"
+  }
+}

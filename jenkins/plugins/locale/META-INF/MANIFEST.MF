@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 17
+Specification-Title: Locale plugin
+Specification-Version: 0.0
+Implementation-Title: Locale plugin
+Implementation-Version: 560.vc5b_91b_3a_2b_68
+Group-Id: io.jenkins.plugins
+Artifact-Id: locale
+Short-Name: locale
+Long-Name: Locale plugin
+Url: https://github.com/jenkinsci/locale-plugin
+Plugin-Version: 560.vc5b_91b_3a_2b_68
+Hudson-Version: 2.479.1
+Jenkins-Version: 2.479.1
+Plugin-Developers: 
+Plugin-License-Name: MIT License
+Plugin-License-Url: http://opensource.org/licenses/MIT
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/locale-plugin
+Plugin-ScmTag: c5b91b3a2b685c9119fa1536598a0d5467c19a9a
+Plugin-ScmUrl: https://github.com/jenkinsci/locale-plugin
+Implementation-Build: c5b91b3a2b685c9119fa1536598a0d5467c19a9a
+

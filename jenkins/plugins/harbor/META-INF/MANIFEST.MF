@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 17
+Specification-Title: Harbor Plugin
+Specification-Version: 0.0
+Implementation-Title: Harbor Plugin
+Implementation-Version: 50.v6d91243ee335
+Plugin-Class: io.jenkins.plugins.harbor.HarborPlugin
+Group-Id: io.jenkins.plugins
+Artifact-Id: harbor
+Short-Name: harbor
+Long-Name: Harbor Plugin
+Url: https://github.com/jenkinsci/harbor-plugin
+Plugin-Version: 50.v6d91243ee335
+Hudson-Version: 2.479
+Jenkins-Version: 2.479
+Plugin-Dependencies: okhttp-api:4.11.0-157.v6852a_a_fa_ec11,workflow-api
+ :1283.v99c10937efcb_,workflow-support:865.v43e78cc44e0d,credentials:130
+ 7.v3757c78f17c3,git:5.2.0,handy-uri-templates-2-api:2.1.8-22.v77d5b_75e
+ 6953,jackson2-api:2.15.2-350.v0c2f3f8fc595,plain-credentials:143.v1b_df
+ 8b_d3b_e48
+Plugin-Developers: 
+Plugin-License-Name: MIT License
+Plugin-License-Url: https://opensource.org/license/mit/
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/harbor-plugin
+Plugin-ScmTag: 6d91243ee335c54bdc591dd16f231ee79f0dc38f
+Plugin-ScmUrl: https://github.com/jenkinsci/harbor-plugin
+Implementation-Build: 6d91243ee335c54bdc591dd16f231ee79f0dc38f
+
